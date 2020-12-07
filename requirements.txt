@@ -1,0 +1,5 @@
+starlette
+uvicorn[standard]
+uvloop
+aiofiles
+jinja2
