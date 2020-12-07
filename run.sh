@@ -1,1 +1,1 @@
-uvicorn --workers $(nproc) --loop uvloop asgi:app
+uvicorn --workers $(nproc) --loop uvloop --log-level error asgi:app
